@@ -1,0 +1,50 @@
+.background {
+  position: relative;
+  height: 800px;
+}
+
+.content {
+  position: absolute;
+  top: 500px;
+  left: 50px;
+  color: white;
+  width: 500px;
+  height: auto;
+}
+
+.name {
+  font-size: 3.5rem;
+  color: white;
+  position: absolute;
+  top: 350px;
+  left: 50px;
+}
+
+.button {
+  padding: 10px 30px;
+  color: white;
+  font-weight: 700;
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.461);
+  margin-right: 20px;
+  border-radius: 5px;
+  border-color: transparent;
+}
+
+.description {
+  font-weight: 500;
+  font-size: 20px;
+  padding: 10px;
+}
+
+.avatar {
+  position: absolute;
+  width: 100%;
+  height: 800px;
+  top: 0px;
+}
+
+.description_wrapper {
+  overflow-y: auto;
+  height: 240px;
+}

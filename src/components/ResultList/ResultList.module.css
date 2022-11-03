@@ -1,0 +1,15 @@
+.frame {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 20px;
+}
+
+.poster {
+  margin: 10px;
+  width: 100px;
+  height: auto;
+}
+
+.poster:hover {
+  transform: scale(1.2);
+}

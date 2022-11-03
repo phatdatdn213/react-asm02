@@ -1,0 +1,12 @@
+.frame {
+  display: flex;
+  flex-direction: row;
+  height: 400px;
+  background-color: black;
+  padding: 0px 20px;
+}
+
+.frame > div {
+  width: 50%;
+  color: white;
+}
